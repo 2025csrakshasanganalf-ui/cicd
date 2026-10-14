@@ -6,8 +6,8 @@ on:
 
 job:
    demo:
-        runs-on:ubuntu-latest
+      runs-on: ubuntu-latest
 
-steps:
-    -name: Greetings
-    run: echo "Hello World"
+      steps:
+          - name: Greetings
+           run: echo "Hello from Master"
